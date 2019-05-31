@@ -3,6 +3,10 @@
   <groupId>gov.nist.hl7.v2.ws</groupId>
   <artifactId>ws-client</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+      <properties>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>1.8</maven.compiler.source>
+    </properties>
   <dependencies>
   	<dependency>
   		<groupId>commons-codec</groupId>
